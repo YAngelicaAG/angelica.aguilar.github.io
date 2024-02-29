@@ -1,0 +1,41 @@
+//- Variables Templates
+block variables
+
+//- Variables globales
+-var root_static    = './docs'
+-var root_img       = './docs/images'
+-var page_author = 'Angelica Aguilar'
+
+
+doctype html
+html(lang=page_language)
+
+  //- Head html
+  head
+    meta(charset='utf-8')
+    title #{ page_title }
+    meta(
+      name='author'
+      content=page_author
+    )
+    meta(
+      http-equiv='X-UA-Compatible'
+      content='IE=edge'
+    )
+    //- responsive
+    meta(
+      name='viewport'
+      content='width=device-width, initial-scale=1'
+    )
+
+    //- CSS theme
+    link(
+      rel='stylesheet'
+      data-senna-track='emporary'
+      type='text/css'
+      href=`${ root_static }/css/styles_aa_site.css`
+    )
+
+  body
+
+    block content

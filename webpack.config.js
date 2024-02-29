@@ -15,25 +15,33 @@ module.exports = {
 		},
 		port: 8080, // Puerto del servidor de desarrollo
 		hot: true, // Habilita la recarga en caliente (Hot Module Replacement - HMR)
-		liveReload: true // Habilita la recarga automática del navegador
+		watchFiles: ['src/**/*.pug'] // Observa los cambios en los archivos Pug
 	},
 	module: {
 		rules: [{
-			test: /\.scss$/, // Patrón para identificar archivos Sass
-			use: [
-				MiniCssExtractPlugin.loader, // Extracción de CSS en un archivo separado
-				'css-loader', // Interpretación de archivos CSS
-				'sass-loader' // Compilación de archivos Sass a CSS
-			]
-		}]
+				test: /\.scss$/, // Patrón para identificar archivos Sass
+				use: [
+					MiniCssExtractPlugin.loader, // Extracción de CSS en un archivo separado
+					'css-loader', // Interpretación de archivos CSS
+					'sass-loader' // Compilación de archivos Sass a CSS
+				]
+			},
+			{
+				test: /\.pug$/,
+				use: [
+					'pug-loader'
+				]
+			}
+		]
 	},
 	plugins: [
 		new MiniCssExtractPlugin({
 			filename: 'css/styles_aa_site.css' // Ruta de salida para el archivo CSS
-		})
-		,
+		}),
 		new HtmlWebpackPlugin({
-			template: './docs/index.html' // Ruta al archivo HTML de origen
+			template: './src/templates/pages/index.pug', // Ruta al archivo Pug de origen
+			filename: 'index.html', // Nombre del archivo HTML resultante
+			
 		})
 	]
 };

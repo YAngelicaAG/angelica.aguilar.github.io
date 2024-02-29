@@ -29,284 +29,55 @@ $c-neutro-black: #000;
 // -*------------------------------------*
 
 /**
-  * $c-primary-blue-80
+  * $c-primary-purple-40
   * @color
   * @section Primary
 */
 
-$c-primary-blue-80: #0440FF;
+$c-primary-purple-40: #8D76BF;
 
 /**
-  * $c-primary-blue-70
+  * $c-primary-purple-80
   * @color
   * @section Primary
 */
 
-$c-primary-blue-70: #3666FF;
-
-/**
-  * $c-primary-blue-60
-  * @color
-  * @section Primary
-*/
-
-$c-primary-blue-60: #688CFF;
-
-/**
-  * $c-primary-blue-55
-  * @color
-  * @section Primary
-*/
-
-$c-primary-blue-55: #9BB3FF;
-
-/**
-  * $c-primary-orange-80
-  * @color
-  * @section Primary
-*/
-
-$c-primary-orange-80: #FE5000;
-
-/**
-  * $c-primary-orange-70
-  * @color
-  * @section Primary
-*/
-
-$c-primary-orange-70: #FF966C;
-
-/**
-  * $c-primary-orange-65
-  * @color
-  * @section Primary
-*/
-
-$c-primary-orange-65: #FFC1AB;
-
-/**
-  * $c-primary-orange-60
-  * @color
-  * @section Primary
-*/
-
-$c-primary-orange-60: #FFDACF;
-
-/**
-  * $c-gray-10
-  * @color
-  * @section Gray
-*/
-
-$c-gray-10: #F7F9FA;
-
-/**
-  * $c-gray-30
-  * @color
-  * @section Gray
-*/
-
-$c-gray-30: #D7E0E5;
-
-
-/**
-  * $c-primary-pink-70
-  * @color
-  * @section Primary
-*/
-
-$c-primary-pink-70: #F39EA7;
-
-/**
-  * $c-primary-pink-65
-  * @color
-  * @section Primary
-*/
-
-$c-primary-pink-65: #F5B1B9;
-
-/**
-  * $c-primary-pink-55
-  * @color
-  * @section Primary
-*/
-
-$c-primary-pink-55: #F8C5CA;
-
-/**
-  * $c-primary-pink-40
-  * @color
-  * @section Primary
-*/
-
-$c-primary-pink-40: #FAD8DC;
+$c-primary-purple-80: #2F2E41;
 
 
 
 // -*------------------------------------*\
-// -    Secondary & tertiary
+// -    Distinctive Colors
 // -*------------------------------------*/
 
 /**
-  * $c-secondary-blue-90
+  * $c-distinctive-orange-60
   * @color
   * @section Secondary
 */
 
-$c-secondary-blue-90: #022BB3;
+$c-distinctive-orange-60: #DD4C35;
 
 /**
-  * $c-secondary-orange-20
+  * $c-distinctive-orange-70
   * @color
   * @section Secondary
 */
 
-$c-secondary-orange-20: #FFB46B;
+$c-distinctive-orange-70: #E44F26;
 
 /**
-  * $c-secondary-orange-30
+  * $c-distinctive-yellow
   * @color
   * @section Secondary
 */
 
-$c-secondary-orange-30: #FFBB05;
+$c-distinctive-orange: #F5DE19;
 
 /**
-  * $c-secondary-orange-80
+  * $c-distinctive-purple
   * @color
   * @section Secondary
 */
 
-$c-secondary-orange-80: #FF6118;
-
-/**
-  * $c-secondary-orange-90
-  * @color
-  * @section Secondary
-*/
-
-$c-secondary-orange-90: #B33901;
-
-// /**
-//   * $c-secondary-turquoise-35
-//   * @color
-//   * @section Secondary
-// */
-
-// $c-secondary-turquoise-35: #02FFE5;
-
-// /**
-//   * $c-secondary-turquoise-40
-//   * @color
-//   * @section Secondary
-// */
-
-// $c-secondary-turquoise-40: #02B3A0;
-
-
-/**
-  * $c-secondary-green-20
-  * @color
-  * @section Secondary
-*/
-
-$c-secondary-green-20: #D1FFD7;
-
-/**
-  * $c-secondary-green-30
-  * @color
-  * @section Secondary
-*/
-
-$c-secondary-green-30: #8BFF9B;
-
-// /**
-//   * $c-secondary-gray-60
-//   * @color
-//   * @section Secondary
-// */
-
-/**
-  * $c-secondary-gray-70
-  * @color
-  * @section Secondary
-*/
-
-$c-secondary-gray-70: #363642;
-
-
-// TODO: Ajustar con solo los colores del diseño
-
-$c-primary-10: #D4F3F0;
-
-$c-primary-30: #8AE5DC;
-
-$c-primary-40: #02FFE5;
-
-$c-primary: #02B3A0;
-
-$c-primary-80: #018072;
-
-
-/**
-  * $c-secondary-violet-30
-  * @color
-  * @section Secondary
-*/
-
-$c-secondary-violet-30: #CDC7E0;
-
-/**
-  * $c-secondary-violet-35
-  * @color
-  * @section Secondary
-*/
-
-$c-secondary-violet-35: #9B8FC2;
-
-
-$c-on-primary: #333333;
-
-/**
-  * $c-gray-20
-  * @color
-  * @section Gray
-*/
-
-$c-gray-20: #E5EBEE;
-
-$c-gray-30: #9F9FA6;
-
-/**
-  * $c-gray-40
-  * @color
-  * @section Gray
-*/
-
-$c-gray-35: #C3C7C9;
-
-
-$c-gray-40: #72727C;
-
-
-/**
-  * $c-secondary-black-80
-  * @color
-  * @section Secondary
-*/
-
-$c-secondary-black-80: #171719;
-
-$c-error: #C31F39;
-
-$c-green: #31D84E;
-$c-blue-dark: #0672E7;
-$c-blue: #1D9BF0;
-
-$c-box-shadow: linear-gradient(0deg, rgba(0, 0, 0, 0.70) 0%, rgba(0, 0, 0, 0.70) 100%);
-
-$c-box-shadow-80: rgba(0, 0, 0, 0.70);;
-
-$c-brand-primary: $c-primary;
-$c-default-link: $c-secondary-black-80;
-$c-default-text: $c-secondary-black-80;
+$c-distinctive-purple: #A259FF;

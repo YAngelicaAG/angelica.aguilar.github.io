@@ -1,13 +1,6 @@
-/*---------------------------------------------*\
-  #font-face
-  $font-family-ico: "ico-fun-sib" !default;
-  URL custom fonts: https://fonts.googleapis.com/css2?family=Geologica:wght@100;300;400;500;600;700&family=Roboto:wght@300
-\*---------------------------------------------*/
-
-@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100;300;400;500;600;700&family=Onest:wght@300;400;500;600;800&family=Wix+Madefor+Text:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
 
 
-// - Icommon Font Ico
 @font-face {
   font-family: '#{$font-family-ico}';
   src: url('#{$path-font}/#{$font-family-ico}.eot?qqnr5');
@@ -38,147 +31,9 @@
 }
 
 
-.i-book {
+.i-code {
   &:before {
-    content: $i-book;
-  }
-}
-
-.i-chevron-down-outline {
-  &:before {
-    content: $i-chevron-down-outline;
-  }
-}
-
-.i-after-chevron-down-outline {
-  &:after {
-    content: $i-chevron-down-outline;
-  }
-}
-
-.i-check {
-  &:before {
-    content: $i-check;
-  }
-}
-
-.i-info {
-  &:before {
-    content: $i-info;
-  }
-}
-
-.i-external {
-  &:before {
-    content: $i-external;
-  }
-}
-
-.i-link {
-  &:before {
-    content: $i-link;
-  }
-}
-
-.i-plus {
-  &:before {
-    content: $i-plus;
-  }
-}
-
-.i-quote {
-  &:before {
-    content: $i-quote;
-  }
-}
-
-.i-services {
-  &:before {
-    content: $i-services;
-  }
-}
-
-.i-share {
-  &:before {
-    content: $i-share;
-  }
-}
-
-.i-after-share {
-  &:after {
-    content: $i-share;
-  }
-}
-
-.i-sort {
-  &:before {
-    content: $i-sort;
-  }
-}
-
-.i-after-sort {
-  &:after {
-    content: $i-sort;
-  }
-}
-
-.i-trash {
-  &:before {
-    content: $i-trash;
-  }
-}
-
-.i-ubication {
-  &:before {
-    content: $i-ubication;
-  }
-}
-
-.i-arrow-down {
-  &:before {
-    content: $i-arrow-down;
-  }
-}
-
-.i-after-arrow-down {
-  &:after {
-    content: $i-arrow-down;
-  }
-}
-
-.i-arrow-left {
-  &:before {
-    content: $i-arrow-left;
-  }
-}
-
-.i-arrow-right {
-  &:before {
-    content: $i-arrow-right;
-  }
-}
-
-.i-after-arrow-right {
-  &:after {
-    content: $i-arrow-right;
-  }
-}
-
-.i-calendar {
-  &:before {
-    content: $i-calendar;
-  }
-}
-
-.i-chevron-down {
-  &:before {
-    content: $i-chevron-down;
-  }
-}
-
-.i-after-chevron-down {
-  &:after {
-    content: $i-chevron-down;
+    content: $i-code;
   }
 }
 
@@ -188,51 +43,15 @@
   }
 }
 
-.i-equis {
+.i-download {
   &:before {
-    content: $i-equis;
+    content: $i-download;
   }
 }
 
-.i-facebook {
+.i-linkedin {
   &:before {
-    content: $i-facebook;
-  }
-}
-
-.i-filter {
-  &:before {
-    content: $i-filter;
-  }
-}
-
-.i-after-filter {
-  &:after {
-    content: $i-filter;
-  }
-}
-
-.i-front-hand {
-  &:before {
-    content: $i-front-hand;
-  }
-}
-
-.i-after-front-hand {
-  &:after {
-    content: $i-front-hand;
-  }
-}
-
-.i-instagram {
-  &:before {
-    content: $i-instagram;
-  }
-}
-
-.i-location {
-  &:before {
-    content: $i-location;
+    content: $i-linkedin;
   }
 }
 
@@ -242,132 +61,20 @@
   }
 }
 
-.i-search {
+.i-email {
   &:before {
-    content: $i-search;
+    content: $i-email;
   }
 }
 
-.i-after-search {
-  &::after {
-    content: $i-search;
+.i-email-circle {
+  &:before {
+    content: $i-email-circle;
   }
 }
 
-.i-youtube {
+.i-github {
   &:before {
-    content: $i-youtube;
-  }
-}
-
-
-.i-student {
-  &:before {
-    content: $i-student; 
-  }
-}
-.i-activities {
-  &:before {
-    content: $i-activities; 
-  }
-}
-.i-asesor {
-  &:before {
-    content: $i-asesor; 
-  }
-}
-.i-az {
-  &:before {
-    content: $i-az; 
-  }
-}
-.i-bibliography {
-  &:before {
-    content: $i-bibliography; 
-  }
-}
-.i-desktop {
-  &:before {
-    content: $i-desktop; 
-  }
-}
-.i-docment-scan {
-  &:before {
-    content: $i-docment-scan; 
-  }
-}
-.i-fisic-space {
-  &:before {
-    content: $i-fisic-space; 
-  }
-}
-.i-loan {
-  &:before {
-    content: $i-loan; 
-  }
-}
-.i-local-information {
-  &:before {
-    content: $i-local-information; 
-  }
-}
-.i-quimica {
-  &:before {
-    content: $i-quimica; 
-  }
-}
-.i-read-club {
-  &:before {
-    content: $i-read-club; 
-  }
-}
-.i-room-consult {
-  &:before {
-    content: $i-room-consult; 
-  }
-}
-.i-user-form {
-  &:before {
-    content: $i-user-form; 
-  }
-}
-.i-virtual-consult {
-  &:before {
-    content: $i-virtual-consult; 
-  }
-}
-.i-calendar1 {
-  &:before {
-    content: $i-calendar1; 
-  }
-}
-.i-clock {
-  &:before {
-    content: $i-clock; 
-  }
-}
-.i-download {
-  &:before {
-    content: $i-download; 
-  }
-}
-.i-after-download {
-  &:after {
-    content: $i-download; 
-  }
-}
-.i-group-persons {
-  &:before {
-    content: $i-group-persons; 
-  }
-}
-.i-whatsapp {
-  &:before {
-    content: $i-whatsapp; 
-  }
-}
-.i-point {
-  &:before {
-    content: $i-point; 
+    content: $i-github;
   }
 }
