@@ -1,0 +1,83 @@
+// -*------------------------------------*
+// -    Variables Color Template
+// -    Referente del sistema de color:
+// -    https://material.io/design/color/the-color-system.html
+// -*------------------------------------*
+
+// -*------------------------------------*
+// -    Neutro
+// -*------------------------------------*
+
+/**
+  * $c-neutro
+  * @color
+  * @section Neutro
+*/
+
+$c-neutro: #fff;
+
+/**
+  * $c-neutro-black
+  * @color
+  * @section Neutro
+*/
+$c-neutro-black: #000;
+
+
+// -*------------------------------------*
+// -    Primary
+// -*------------------------------------*
+
+/**
+  * $c-primary-purple-40
+  * @color
+  * @section Primary
+*/
+
+$c-primary-purple-40: #8D76BF;
+
+/**
+  * $c-primary-purple-80
+  * @color
+  * @section Primary
+*/
+
+$c-primary-purple-80: #2F2E41;
+
+
+
+// -*------------------------------------*\
+// -    Distinctive Colors
+// -*------------------------------------*/
+
+/**
+  * $c-distinctive-orange-60
+  * @color
+  * @section Secondary
+*/
+
+$c-distinctive-orange-60: #DD4C35;
+
+/**
+  * $c-distinctive-orange-70
+  * @color
+  * @section Secondary
+*/
+
+$c-distinctive-orange-70: #E44F26;
+
+/**
+  * $c-distinctive-yellow
+  * @color
+  * @section Secondary
+*/
+
+$c-distinctive-orange: #F5DE19;
+
+/**
+  * $c-distinctive-purple
+  * @color
+  * @section Secondary
+*/
+
+$c-distinctive-purple: #A259FF;
