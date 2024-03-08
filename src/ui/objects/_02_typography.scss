@@ -1,0 +1,46 @@
+/*------------------------------------*\
+  Patterns Elements
+  #Styles for text
+\*------------------------------------*/
+
+html {
+  font-size: 100%;
+  color: $c-primary-purple-80;
+  scroll-behavior: smooth;
+}
+
+
+body {
+  line-height: 1.75;
+  @include px-to-rem(font-size, 16px);
+  font-family: $f-default;
+}
+
+p {
+  line-height: 1.75;
+}
+
+.o-italic,
+em,
+i {
+  font-style: $f-italic;
+  font-family: $f-default;
+}
+
+.o-bold,
+strong,
+b {
+  font-weight: $f-bold;
+}
+
+.o-light {
+  font-weight: $f-light;
+}
+
+.o-semi-bold {
+  font-weight: $f-semi-bold;
+}
+
+.o-neutro {
+  color: $c-neutro;
+}

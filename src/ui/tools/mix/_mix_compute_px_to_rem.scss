@@ -2,11 +2,12 @@
 //-   Converter pixels (px) to (rem) with Fallback
 //-*----------------------------------------------------*
 
+@use "sass:math";
 
 //- 1. función para analizar analizar una cadena de texto y retornar el valor numérico
 @function parseInt($n) {
   //- 2.
-  @return $n / ($n * 0 + 1);
+  @return math.div($n, $n * 0 + 1);
 }
 
 /**
@@ -40,7 +41,7 @@
       //- 7. Agregamos los valores a las listas dependiendo de la unidad del valor dado (px o rem)
       @if $unit == 'px' {
         $px: append($px, $value);
-        $rem: append($rem, ($val /  $base + rem ));
+        $rem: append($rem, math.div($val, $base) + rem);
       }
       @if $unit == 'rem' {
         $px: append($px, ($val * $base + px));

@@ -1,0 +1,15 @@
+.c-hero {
+  text-align: center;
+}
+.c-hero__title {
+  @include px-to-rem(font-size, 48px);
+  text-transform:  uppercase;
+  line-height: 1;
+}
+.c-hero__subtitle {
+  @include px-to-rem(font-size, 16px);
+  font-weight: $f-medium;
+}
+.c-hero__link {
+  @include px-to-rem(margin-top, $gutter * 3);
+}
